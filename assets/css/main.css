@@ -1139,7 +1139,20 @@
 				box-shadow: inset 0 0 0 2px #FFF4F6;
 			}
 
-			
+			/* commenting out because most phones dont have bottom microphone
+			#banner .content:after {
+				content: '';
+				display: block;
+				position: absolute;
+				bottom: 0.75em;
+				left: 50%;
+				width: 2.5em;
+				height: 0.4em;
+				margin-left: -1.25em;
+				border-radius: 1em;
+				background: transparent;
+				box-shadow: inset 0 0 0 2px #FFF4F6;
+			} */
 
 		#banner ul {
 			margin: 0;
