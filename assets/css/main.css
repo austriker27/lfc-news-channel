@@ -541,11 +541,14 @@
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
+			text-align: center;
 		}
 
 			ul.icons li {
 				display: inline-block;
 				padding: 0 1em 0 0;
+				margin: 0 auto;
+				width: 30%;
 			}
 
 				ul.icons li:last-child {
@@ -1297,4 +1300,12 @@
 		position: fixed;
 		bottom: 0;
 		right: 0;
+	}
+
+	#wrapper > footer > ul > li {
+		color: #74797f;
+    font-weight: 300;
+		letter-spacing: -0.025em;
+    line-height: 1.4;
+    margin: 0 0 0.8em 0;
 	}
